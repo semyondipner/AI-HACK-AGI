@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "type": "node",
+      "request": "attach",
+      "port": 9229,
+      "name": "Backend in Docker",
+      "restart": true,
+      "address": "0.0.0.0",
+      "remoteRoot": "/app",
+      "localRoot": "${workspaceFolder}/services/backend",
+      "sourceMaps": true,
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+    }
+  ]
+}
