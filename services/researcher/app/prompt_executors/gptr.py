@@ -28,6 +28,7 @@ def execute_prompt(
 
 
 async def get_report(query: str, report_type: str, sources: list) -> str:
+    os.environ['RETRIEVER'] = 'tavily'
     researcher = GPTResearcher(
         query=query, report_type=report_type, source_urls=sources
     )
