@@ -5,22 +5,21 @@ def gen_from_json(data):
     news_list = []
     for i in range(data.shape[0]):
         string = data.loc[i]
-        html_block_template = f"""
+        html_block_template = f"""   
         <tr>
             <td width="50%" style="padding:15px 15px 0 15px;">
                 <div style="padding:20px;background-color:#ffffff;border-radius:6px;">
                     <p align="right" style="color:#70819A;margin:0;">{string.date_time}</p>
                     <h3 style="color:#112542;margin: 10px 0 0 0;"><a target="_blank" href="{string.article_name}">{string.title}</a></h3>
-                    <table>
+                    <table style="width: 100%;">
                         <tr>
-                            <td style="width: 100%;">
+                            <td>
                                 <p style="color:#70819A;">{string.source_name}
                                 </p>
                             </td>
                             <td style="text-align: right;">
-                                <p align="right"
-                                   style="font-size:10px;background-color:#B0EBDD;color:#112542;padding:5px;min-width:max-content;">
-                                    {string.category}</p>
+                                <p style="font-size:10px;color:#112542;text-align:right;">
+                                    <span style="background-color:#B0EBDD;padding:5px;">{string.category}</span></p>
                             </td>
                         </tr>
                     </table>
