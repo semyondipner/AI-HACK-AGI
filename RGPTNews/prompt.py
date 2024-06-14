@@ -13,7 +13,7 @@ DATE_FORMAT = "%Y-%m-%d"
 WEEK_RANGE = date1.strftime(DATE_FORMAT) + " - " + date2.strftime(DATE_FORMAT)
 
 
-NEWS_AMOUNT = "5"
+NEWS_AMOUNT = "20"
 REPORT_TYPE = "custom_report"
 COMPANY_NAME = "Novolipetsk Iron and Steel Works (NLMK Group)"
 COMPANY_FIELDS = "industry, metallurgy, application of artificial intelligence in industry"
