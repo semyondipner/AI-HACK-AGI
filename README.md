@@ -11,8 +11,7 @@
 - Для тестирования решения в рамках хакатона AI Product вы можете получить api ключи у
     - https://t.me/DukhaninDY
     - https://t.me/semyondipner
-    - либо же воспользоваться демо (не требуются api ключи и vpn) - (тут вписать наше демо)
-
+    - либо же воспользоваться демо (не требуются api ключи и vpn) - https://158.160.165.233/ui/emails
 ![Untitled](./MDImages/IMG_0.png)
 
 ## Установка решения локально
@@ -22,8 +21,8 @@
 Клонируем репозиторий:
 
 ```bash
-git clone https://github.com/semyondipner/AI-Product-Hack.git
-cd AI-Product-Hack
+git clone https://github.com/semyondipner/AI-HACK-AGI
+cd AI-HACK-AGI
 ```
 
 Запуск докера:
